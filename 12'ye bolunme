@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class project {
+    public static void main(String[] args) {
+        int n, k,i,l;
+        Scanner inp = new Scanner(System.in);
+
+        System.out.print("Sayiyi giriniz :");
+        n = inp.nextInt();
+
+
+        for ( i = 0; i <= n; i++) {
+
+
+            if (i % 12 == 0) {
+
+                k=(n/12);
+
+                l= ((6*k) +6);
+
+                System.out.print(l);
+                break;
+            }
+
+
+
+        }
+    }
+
+}
+
